@@ -4,7 +4,7 @@ module.exports = {
   content: ["./src/pages/**/*.{js,ts,jsx,tsx}", "./src/components/**/*.{js,ts,jsx,tsx}"],
   theme: {
     colors: {
-      primary: colors.emerald[500],
+      primary: colors.emerald[600],
       secondary: colors.slate[500],
       dark: colors.slate[700],
       light: colors.emerald[50],
