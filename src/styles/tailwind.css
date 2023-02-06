@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    @apply text-dark;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  h1 {
+    @apply text-4xl
+  }
+
+  p {
+    @apply text-xl
+  }
+}
