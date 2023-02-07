@@ -6,13 +6,32 @@
   * {
     @apply text-dark;
     font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body, body > div {
+    height: 100%;
   }
 
   h1 {
-    @apply text-4xl
+    @apply text-4xl font-semibold
   }
 
   p {
     @apply text-xl
+  }
+}
+
+.mainContainer {
+  max-height: 750px;
+  min-height: 600px;
+}
+
+@media screen and (max-width: 1024px) {
+  .mainContainer {
+    max-height: 100%;
+    min-height: 800px;
   }
 }
